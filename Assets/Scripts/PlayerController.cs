@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public int health = 42;
+    public int health = 3;
     public float speed = 10.0f;
     public GameObject laserPrefab;
 

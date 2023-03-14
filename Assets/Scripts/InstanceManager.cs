@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class InstanceManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    [SerializeField] private GameObject MainMenu;
+    [SerializeField] private GameObject GameOver;
+    [SerializeField] private GameObject GameWon;
+
+
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
     }
 }
