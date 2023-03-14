@@ -9,6 +9,7 @@ public class enemyHit : MonoBehaviour
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+        GameObject.Find("HitPoints").GetComponent<HealthHandler>().SetPoint(-1);
     }
 
 
