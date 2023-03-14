@@ -34,6 +34,6 @@ public class HealthHandler : MonoBehaviour
 
     public void SetPoint(int pointvariable)
     {
-        HealthCounter += pointvariable;
+        HealthCounter -= pointvariable;
     }
 }
